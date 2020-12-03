@@ -1,3 +1,12 @@
 # CASTAWAY NL
 
-I have used a train malfunction dataset from NS (the principal passenger railway operator in the Netherlands) spanning the year 2019, and I have combined it with climate data from the same year to predict how long it will take for a train malfunction to be resolved and to help train users make more confident decisions against train delays or cancellations.
+Despite Dutch trains being among the worldwide leaders in punctuality, 
+the worst nightmare of any commuter in the Netherlands 
+is to find this screen in a train station. 
+Rijdt Niet literally means that the trains are not driving. 
+Chaos reigns upon the station, 
+workers get barraged with questions about when the problem will be solved, 
+or are appealed to offer alternatives to reach the ultimate goal: 
+get to the destination as fast as possible.
+And all this drama because of train malfunctions.
+
