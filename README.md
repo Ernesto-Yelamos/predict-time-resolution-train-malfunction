@@ -7,4 +7,4 @@ NS is the principal passenger railway operator in the Netherlands, with an avera
 I have used a train malfunction dataset from NS, spanning the year 2019, and I have combined it with climate data from the same year to predict how long it will take for a train malfunction to be resolved, and to help train users make more confident decisions against a Rijdt Niet screen. Sometimes it might be best to just stay put than to take 4 bus combinations to get home.
 
 
-
+**Strategy:**
