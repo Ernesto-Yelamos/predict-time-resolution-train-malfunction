@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Out Of Scope</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+	<div class = "content">
+		<h1> CASTAWAY NL </h1>
+
+    <form action = "/" method="POST">
+			<label> Station</label>
+			<input type="text" name="parameter_1" id="parameter_1">
+			<br>
+			<br>
+			<label> Month</label>
+			<input type="text" name="parameter_2" id="parameter_2">
+			<br>
+			<br>
+			<label> Day of the week</label>
+			<input type="text" name="parameter_3" id="parameter_3">
+			<br>
+			<br>
+			<label> Holiday or nonholiday</label>
+			<input type="text" name="parameter_4" id="parameter_4">
+			<br>
+      <br>
+			<label> Peak or off-peak hour</label>
+			<input type="text" name="parameter_5" id="parameter_5">
+			<br>
+      <br>
+			<label> Malfunction cause</label>
+			<input type="text" name="parameter_6" id="parameter_6">
+			<br>
+      <br>
+			<label> Amount of rain</label>
+			<input type="text" name="parameter_7" id="parameter_7">
+			<br>
+      <br>
+			<label> Amount of wind</label>
+			<input type="text" name="parameter_8" id="parameter_8">
+			<br>
+      <br>
+			<label> Temperature</label>
+			<input type="text" name="parameter_9" id="parameter_9">
+			<br>
+			<br>
+			<input type="submit" value="Run Model">
+		</form>
+
+    {% for prediction in predictions%}
+    	<h2> You can expect to wait {{prediction}} for the malfunction to be resolved.</h2>
+
+    	{% endfor%}
+	</div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
